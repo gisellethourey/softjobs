@@ -1,7 +1,6 @@
 CREATE DATABASE softjobs;
 
 \c softjobs;
-
 CREATE TABLE usuarios (
   id        SERIAL        NOT NULL,
   email     VARCHAR(50)   NOT NULL  UNIQUE,
